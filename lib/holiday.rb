@@ -55,7 +55,6 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 holiday_hash.each do |key, obj|
   puts key
-  puts obj
 end
 end
 def all_holidays_with_bbq(holiday_hash)
