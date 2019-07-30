@@ -55,7 +55,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
     holiday_hash.each do |key, obj|
       obj.each do |attribute, value|
-        puts "#{attribute}}"
+        puts "#{attribute}"
 end
 end
 end
