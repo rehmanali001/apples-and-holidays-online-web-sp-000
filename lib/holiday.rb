@@ -68,7 +68,7 @@ def all_holidays_with_bbq(holiday_hash)
         att if val.include?("BBQ")
   end
 end
-
+end
 
 
 
