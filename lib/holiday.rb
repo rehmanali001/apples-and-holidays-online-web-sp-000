@@ -67,7 +67,7 @@ def all_holidays_with_bbq(holiday_hash)
       key.each do |att, val|
         att if val.include?("BBQ")
   end
-end
+end.flatten.compact
 end
 
 
